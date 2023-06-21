@@ -1,84 +1,116 @@
 <!DOCTYPE html>
 <html lang="en">
-<head>
-    <meta charset="UTF-8">
-    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
     <title>Document</title>
-        <!-- FONT AWESOME -->
-        <link
-        rel="stylesheet"
-        href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.4.0/css/all.min.css"
-        integrity="sha512-iecdLmaskl7CVkqkXNQ/ZH/XLlvWZOJyj7Yy7tcenmpD1ypASozpmT/E0iPtmFIB46ZmdtAc9eNBvH0H/ZpiBw=="
-        crossorigin="anonymous"
-        referrerpolicy="no-referrer"
-      />
-    
-    <link rel="stylesheet" href="css/style.css">
-</head>
-<body>
+    <!-- FONT AWESOME -->
+    <link
+      rel="stylesheet"
+      href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.4.0/css/all.min.css"
+      integrity="sha512-iecdLmaskl7CVkqkXNQ/ZH/XLlvWZOJyj7Yy7tcenmpD1ypASozpmT/E0iPtmFIB46ZmdtAc9eNBvH0H/ZpiBw=="
+      crossorigin="anonymous"
+      referrerpolicy="no-referrer"
+    />
+
+    <link rel="stylesheet" href="css/style.css" />
+  </head>
+  <body>
     <!-- HEADER -->
     <header class="flex space-between items-center">
-        <div class="flex">
-            <a href="#">Donna</a>
-            <a href="#">Uomo</a>
-            <a href="#">Bambino</a>
-        </div>
-        <div>
-            <img src="img/boolean-logo.png" alt="" class="img-header">
-
-        </div>
-        <div class="flex">
-            <i class="fa-light fa-user"></i>
-            <i class="fa-light fa-heart"></i>
-            <i class="fa-light fa-lock"></i>
-
-        </div>
-            
+      <div class="flex">
+        <a href="#">Donna</a>
+        <a href="#">Uomo</a>
+        <a href="#">Bambino</a>
+      </div>
+      <div>
+        <img src="img/boolean-logo.png" alt="" class="img-header" />
+      </div>
+      <div class="flex">
+        <i class="fa-light fa-user"></i>
+        <i class="fa-light fa-heart"></i>
+        <i class="fa-light fa-lock"></i>
+      </div>
     </header>
 
-    <main class="flex gap">
-        <div class="card-container">
-            <div class="relative card">
-                <div class="absolute heart ">&hearts;</div>
-                
-                <img src="img/1b.webp" alt="" class="absolute">
-                <img src="img/1.webp" alt="" class="absolute first-img">
+    <!-- MAIN -->
 
-                <div>-50%</div>
-                <div>Sostenibilità</div>
-                
-            </div>
+    <main class="flex gap flex-wrap">
 
-           
+        <!-- first card -->
+      <div class="card-container">
+        <div class="relative card">
+          <div class="absolute heart">&hearts;</div>
+
+          <img src="img/1b.webp" alt="" class="absolute" />
+          <img src="img/1.webp" alt="" class="absolute first-img" />
+          <div class="absolute box flex">
+            <div class="box-red">-50%</div>
+            <div class="box-green">Sostenibilità</div>
+          </div>
         </div>
-        <div class="card-container">
-            <div class="relative card">
-                <div class="absolute heart ">&hearts;</div>
-                
-                <img src="img/1b.webp" alt="" class="absolute">
-                <img src="img/1.webp" alt="" class="absolute first-img">
 
-                <div>-50%</div>
-                <div>Sostenibilità</div>
-                
-            </div>
-
-           
+        <p>Levi's</p>
+        <h2>RELAXED FIT TEE UNISEX</h2>
+        <div class="flex">
+          <p>14,99€</p>
+          <p>29,99€</p>
         </div>
-        <div class="card-container">
-            <div class="relative card">
-                <div class="absolute heart ">&hearts;</div>
-                
-                <img src="img/1b.webp" alt="" class="absolute">
-                <img src="img/1.webp" alt="" class="absolute first-img">
+      </div>
 
-                <div>-50%</div>
-                <div>Sostenibilità</div>
-                
-            </div>
+      <!-- second card -->
+      <div class="card-container">
+        <div class="relative card">
+          <div class="absolute heart">&hearts;</div>
 
-           
+          <img src="img/2b.webp" alt="" class="absolute" />
+          <img src="img/2.webp" alt="" class="absolute first-img" />
+
+          <div>-50%</div>
+          <div>Sostenibilità</div>
         </div>
+      </div>
+
+      <!-- third card -->
+      <div class="card-container">
+        <div class="relative card">
+          <div class="absolute heart">&hearts;</div>
+  
+          <img src="img/3b.webp" alt="" class="absolute" />
+          <img src="img/3.webp" alt="" class="absolute first-img" />
+  
+          <div>-50%</div>
+          <div>Sostenibilità</div>
+        </div>
+      </div>
+      <div class="card-container">
+        <div class="relative card">
+          <div class="absolute heart">&hearts;</div>
+  
+          <img src="img/3b.webp" alt="" class="absolute" />
+          <img src="img/3.webp" alt="" class="absolute first-img" />
+  
+          <div>-50%</div>
+          <div>Sostenibilità</div>
+        </div>
+      </div>
     </main>
-</body>
+
+    <footer>
+        <div class="flex">
+            <div>
+                <h3>Boolando s.r.l.</h3>
+                <ul>
+                    <li>Informazioni legali</li>
+                    <li>Inormativa sulla privacy</li>
+                    <li>Diritto</li>
+                </ul>
+            </div>
+            <div></div>
+        </div>
+
+    </footer>
+      
+
+  </body>
 </html>
