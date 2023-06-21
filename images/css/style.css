@@ -23,6 +23,13 @@ header {
 
 }
 
+footer {
+    position: static;
+    padding: 2rem;
+    background-color: black;
+    color: white;
+}
+
 .img-header {
     width: 30%;
     margin: 0 100px;
@@ -45,8 +52,30 @@ main {
     display: flex;
 }
 
+.flex-column {
+    display: flex;
+    flex-direction: column;
+    
+}
+
+
+
+
 .flex-wrap {
     flex-wrap: wrap;
+}
+
+.space-between {
+    justify-content: space-between;
+}
+
+.space-around {
+    justify-content: space-around;
+}
+
+
+.items-center {
+    align-items: center;
 }
 
 .gap {
@@ -55,13 +84,6 @@ main {
 
 
 
-.space-between {
-    justify-content: space-between;
-}
-
-.items-center {
-    align-items: center;
-}
 
 .relative {
     position: relative;
@@ -122,5 +144,15 @@ main img {
     height: 100%;
     width: 100%;
 }
+
+footer ul {
+    
+    list-style: none;
+}
+
+footer li {
+    margin-right: 30px;
+}
+
 
 
