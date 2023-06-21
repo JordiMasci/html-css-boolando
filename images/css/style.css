@@ -1,0 +1,103 @@
+*{
+    box-sizing: border-box;
+    padding: 0;
+    margin: 0;
+}
+
+
+.container {
+    max-width: 1180px;
+    margin-left: auto;
+    margin-right: auto;
+}
+
+header {
+    /* height: 150px; */
+    background-color: orange;
+    padding: 2rem;
+    position: fixed;
+    left: 0;
+    top: 0;
+    right: 0;
+    z-index: 2;
+
+}
+
+.img-header {
+    width: 30%;
+    margin: 0 100px;
+   
+}
+
+header a {
+    margin-right: 5px;
+
+}
+
+main {
+    padding: 10rem 8rem;
+}
+
+
+/* Utili */
+
+.flex {
+    display: flex;
+}
+
+.gap {
+    gap: 20px;
+}
+
+
+
+.space-between {
+    justify-content: space-between;
+}
+
+.items-center {
+    align-items: center;
+}
+
+.relative {
+    position: relative;
+}
+
+
+.absolute {
+    position: absolute;
+}
+
+.first-img:hover { 
+    opacity: 0;
+}
+
+.heart {
+    z-index: 1;
+    right: 0;
+    top: 8px;
+    padding: 1rem;
+    font-size: larger;
+    background-color: white;
+}
+
+.heart:hover {
+    color: red;
+}
+
+.card-container {
+    width: 33%;
+}
+
+.card {
+    height: 800px;
+    
+}
+
+main img {
+    object-fit: cover;
+    height: 100%;
+    width: 100%;
+}
+
+
