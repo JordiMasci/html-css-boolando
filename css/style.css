@@ -155,5 +155,11 @@ footer li {
     margin-right: 30px;
 }
 
+.text-decoration {
+    text-decoration: line-through;
+}
 
 
+.card-container p:nth-child(1) {
+    color: red;
+}
