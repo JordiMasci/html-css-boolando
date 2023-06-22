@@ -14,7 +14,7 @@
 header {
     /* height: 150px; */
     background-color: orange;
-    padding: 2rem;
+    padding: 1.5rem;
     position: fixed;
     left: 0;
     top: 0;
@@ -32,7 +32,7 @@ footer {
 
 .img-header {
     width: 30%;
-    margin: 0 100px;
+    margin-left: 3ticket00px;
    
 }
 
@@ -111,19 +111,19 @@ main {
     color: red;
 }
 
-.box {
+.ticket {
     left: 0;
     bottom: 35px;
 }
 
-.box-red {
+.ticket-red {
     background-color: red;
     margin-right: 15px;
     color: white;
     padding: 5px;
 }
 
-.box-green {
+.ticket-green {
     background-color: green;
     color: white;
     padding: 5px;
@@ -131,7 +131,8 @@ main {
 }
 
 .card-container {
-    width: 32.5%;
+    width: 32%;
+    height: 100%;
 }
 
 .card {
